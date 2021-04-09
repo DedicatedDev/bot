@@ -1,6 +1,6 @@
 {
-  "name": "upwork-rss",
-  "version": "1.0.0",
+  "name": "upworkmobiel-rss",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
