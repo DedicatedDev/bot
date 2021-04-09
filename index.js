@@ -38,7 +38,7 @@ cron.schedule("* * * * *", () => {
 
   (async () => {
     let feed = await parser.parseURL(
-      "https://www.upwork.com/ab/feed/topics/rss?securityToken=f6cfb45210209ca9ddfc893fcdbeca8de2fa6d1e971a750f794e7ce4223ef48aa63117047f32f60919a5d3c678b728d00f9d6d8bb38edd4e05d0507b286d9c20&userUid=1185743111097253888&orgUid=1185743111109836801&topic=5150139"
+      "https://www.upwork.com/ab/feed/topics/rss?securityToken=f6cfb45210209ca9ddfc893fcdbeca8de2fa6d1e971a750f794e7ce4223ef48aa63117047f32f60919a5d3c678b728d00f9d6d8bb38edd4e05d0507b286d9c20&userUid=1185743111097253888&orgUid=1185743111109836801&topic=5151743"
     );
 
     const title = feed.items[0].title;
